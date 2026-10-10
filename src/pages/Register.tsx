@@ -1,4 +1,4 @@
-function Resgister (){
+function Register (){
     return(
         <section>
             <h2>Register</h2>
@@ -8,4 +8,4 @@ function Resgister (){
     
     );
 }
-export default Regsiter;
+export default Register;

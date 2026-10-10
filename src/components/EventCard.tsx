@@ -1,7 +1,7 @@
 interface EventCardProps {
     title: string;
     location: string;
-    price number;
+    price: number;
 }
 function EventCard({title, location, price }:EventCardProps) {
     return(
