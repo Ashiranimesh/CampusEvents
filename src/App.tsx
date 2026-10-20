@@ -7,6 +7,7 @@ import './App.css'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EventCard from "./components/EventCard";
+import Events from"./pages/Events ";
 
 
 /*
@@ -28,12 +29,7 @@ function App() {
     <Navbar />
             <main>
                 <h2>Welcome to CampusEvents</h2>
-
-                <EventCard 
-      title="Campus Tech Conference"
-      location="Main Campus Hall"
-      price={15}
-      />
+                <Events/>
             </main>
       <Footer />
       </>
